@@ -28,7 +28,7 @@ SECRET_KEY = 'django-insecure-a&806jrpp4j+-z2nn7yvm2a1w(py(_aby&ed7891h$s8dh90s3
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['mithra-webapp.herokuapp.com', '127.0.0.1:8000', 'localhost']
 
 # Application definition
 
@@ -161,6 +161,10 @@ REST_FRAMEWORK = {
 # CORS_ALLOWED_ORIGINS = [
 #     "http://localhost:3000",
 #     "http://127.0.0.1:3000"
+# ]
+
+# CORS_ORIGIN_WHITELIST = [
+#     "http://localhost:3000"
 # ]
 
 AUTHENTICATION_BACKENDS = (
